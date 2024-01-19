@@ -2,6 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [first, setfirst] = useState('abdullah')
@@ -19,6 +20,7 @@ export default function Home() {
     <h1>heloo {first}</h1>
     <Second name={'jeloo'}/>
   <button onClick={alert}>on click</button>
+  <Link href='/about'>go to about</Link>
   <Iside/>
   {Iside()}
     </main>
