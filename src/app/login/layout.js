@@ -35,3 +35,40 @@ const Layout = ({ children }) => {
 };
 
 export default Layout;
+
+// import React from 'react'
+// import { usePathname } from 'next/navigation'
+// import Link from 'next/link'
+// const validpath = [
+//   '/login/loginstudent',
+//   '/login/all'
+// ]
+// const layout = ({ children }) => {
+//   const path = usePathname()
+//   const asssing = validpath.includes(path)
+
+
+//   return (
+//     <div>
+//       {asssing ? (
+//         <div>
+
+//           <Link href='/login'>Go main </Link>
+//         </div>
+//       ) : (
+
+
+//         <div>
+//           <Link href='/login'>Main Login</Link>
+//           <Link href='/login/loginstudent'>student</Link>
+//           <Link href='/login/loginteachers'>teacher</Link>
+//           <Link href='/login/all'>all</Link>
+//         </div>
+//       )}
+//       common
+//       {children}
+//     </div>
+//   )
+// }
+
+// export default layout
