@@ -1,6 +1,9 @@
-const found=()=>{
-    return(
-<h1>Page has benn not found</h1>
-    )
+import React from 'react'
+
+const found = () => {
+  return (
+    <div>not-found</div>
+  )
 }
+
 export default found

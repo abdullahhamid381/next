@@ -1,0 +1,10 @@
+
+@import '../media.scss';
+.maintwo{
+    h1{
+        color: red;
+        @include lg{
+            color: blue;
+        }
+    }
+}
